@@ -67,4 +67,4 @@ I have also published a blog post on [Interrupt Handling and Stack Switching in 
 
 #
 
-I will continue to update this list as I encounter more help resources.
+I will continue to update this list as I encounter more helpful resources.
