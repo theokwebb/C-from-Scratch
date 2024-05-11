@@ -53,7 +53,7 @@ I decided to develop a kernel driver and a rootkit. If you intend to delve deepe
 
 OpenSecurityTraining2’s courses are absolutely incredible and include tons of practical labs that help cement concepts. You will not be bored with Xeno.
 
-I found the first and second chapters of [Computer Systems: A Programmer's Perspective](https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396) complements OpenSecurityTraining2’s course nicely. Chapter 1 provides a excellent overview of computer organisation, and Chapter 2 helps to thoroughly understand bits, logic, and C data types. However, if money is an issue, use CS107’s Computer Organization and Systems reader (mentioned earlier) as it covers similar topics and is free.
+I found the first and second chapters of [Computer Systems: A Programmer's Perspective](https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396) complements Arch1001 nicely. Chapter 1 provides a excellent overview of computer organisation, and Chapter 2 helps to thoroughly understand bits, logic, and C data types. However, if money is an issue, use CS107’s Computer Organization and Systems reader (mentioned earlier) as it covers similar topics and is free.
 
 I have posted a number of writeups to Arch1001 on my [GitHub](https://github.com/theokwebb/my-writeups) which you may find helpful.
 
