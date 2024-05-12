@@ -38,7 +38,7 @@ This includes a primer on C along with lots of other useful information related 
 
 - [C Programming A Modern Approach - Second Edition by K. N King](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by)
 
-I don’t believe there is one particularly special textbook for learning C. However, I often found the explanations in this book to be very clear and helpful. 
+I don’t believe there is one particularly special textbook for learning C. However, I often found the explanations in this book to be very clear and helpful. If you encounter a concept not covered in the other resources, such as unions or enumerations, this book is an excellent reference.
 
 ### Individual Project
 By this point, you should be prepared to start your own project. Personally, I found it hard to choose one, as I was constantly searching for the perfect 'beginner-friendly' project which aligned with my interests. However, I realised that this approach isn’t beneficial at all. A calculator, hash table, or tic-tac-toe project will just bore you. Pursue a project that genuinely interests you, regardless of its difficulty. You will likely face some setbacks, but the valuable lessons you learn through these experiences are what truly matter.
