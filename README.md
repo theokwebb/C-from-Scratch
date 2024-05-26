@@ -61,7 +61,7 @@ I have posted a number of writeups to Arch1001 on my [GitHub](https://github.com
 
 ### [Architecture 2001: x86-64 OS Internals](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch2001_x86-64_OS_Internals+2021_v1/about)
 
-So, before starting Architecture 2001, I strongly recommend reading at least the first four chapters of [Windows Kernel Programming, Second Edition](https://leanpub.com/windowskernelprogrammingsecondedition). This will lay a solid foundation for the course. I also advise thoroughly reading Chapter 1 of [Windows Internals, Part 1](https://www.microsoftpressstore.com/store/windows-internals-part-1-system-architecture-processes-9780735684188). The other chapters should be used more as a reference if you find yourself stuck.
+Arch2001 is OS-agnostic. However, for those particularly interested in Windows development, I strongly recommend reading at least the first four chapters of [Windows Kernel Programming, Second Edition](https://leanpub.com/windowskernelprogrammingsecondedition) before starting Arch2001. This will lay a solid foundation for the course. I also advise thoroughly reading Chapter 1 of  [Windows Internals, Part 1](https://www.microsoftpressstore.com/store/windows-internals-part-1-system-architecture-processes-9780735684188), and using the other chapters more as a reference if you find yourself stuck.
 
 I have also published a blog post on [Interrupt Handling and Stack Switching in x86-64 Architecture](https://theokwebb.github.io/posts/interrupt-handling-and-stack-switching/), inspired by some difficulties I faced in a lab from Arch2001.
 
