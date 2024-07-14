@@ -1,4 +1,4 @@
-# Pointers to Pointers and How Data is Stored:
+# Pointers to Pointers and How Data is Stored in C:
 Here is example that demonstrates the handling of pointers to pointers and how data is stored:
 
 ```c
