@@ -17,7 +17,7 @@ Next, move on to h0mbre’s project-based C course. After CS50, you should be ab
 
 You can find my solutions to the assignments [here](https://github.com/theokwebb/Learning-C).
 
-There may be some instances where you need to review or deepen your understanding of certain topics. Below are a few areas where I needed further clarification:
+There may be some instances where you need to review or deepen your understanding of certain topics. Here are a few areas that I stumbled on:
 
 #### Pointers
 - [Pointers and Memory](http://cslibrary.stanford.edu/102/PointersAndMemory.pdf)
@@ -26,12 +26,16 @@ There may be some instances where you need to review or deepen your understandin
 #### Input Sanitization
 - [A beginners' guide away from scanf()](https://www.sekrit.de/webdocs/c/beginners-guide-away-from-scanf.html)
 
-If you know of any other helpful resources in this area, please drop me a message on [X](https://twitter.com/theokwebb).
-
 #### Data Structures
-- [Linked List Problems](http://cslibrary.stanford.edu/105/LinkedListProblems.pdf)
+- [Linked Lists](http://cslibrary.stanford.edu/105/LinkedListProblems.pdf)
 
-#### Comprehensive Guides
+#### Code Examples and Explanations
+Here are some code snippets and explanations for some intermediate C concepts I’ve written that might be useful to you:
+- [Pass by Value and Pass by Reference]( https://github.com/theokwebb/C-from-Scratch/tree/main/Pointers/PassByValue-Ref)
+- [Pointers to Pointers and How Data is Stored]( https://github.com/theokwebb/C-from-Scratch/tree/main/Pointers/Pointers-to-Pointers)
+- [Function Pointers]( https://github.com/theokwebb/C-from-Scratch/tree/main/Pointers/FunctionPointers)
+
+#### Other Comprehensive Guides
 - [CS107 Computer Organization and Systems](https://stanford.edu/~cgregg/cgi-bin/107-reader/)
 
 This includes a primer on C along with lots of other useful information related to the language and computer science.
