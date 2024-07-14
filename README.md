@@ -17,7 +17,7 @@ Next, move on to h0mbreâ€™s project-based C course. After CS50, you should be ab
 
 You can find my solutions to the assignments [here](https://github.com/theokwebb/Learning-C).
 
-There may be some instances where you need to review or deepen your understanding of certain topics. Here are a few areas that I stumbled on:
+There may be some instances where you need to review or deepen your understanding of certain topics. Here are a few areas I struggled with and needed additional information to fully understand:
 
 #### Pointers
 - [Pointers and Memory](http://cslibrary.stanford.edu/102/PointersAndMemory.pdf)
@@ -38,7 +38,7 @@ Here are some code snippets and explanations for some intermediate C concepts Iâ
 #### Other Comprehensive Guides
 - [CS107 Computer Organization and Systems](https://stanford.edu/~cgregg/cgi-bin/107-reader/)
 
-This includes a primer on C along with lots of other useful information related to the language and computer science.
+CS107 reader includes a primer on C along with lots of other useful information related to the language and computer science.
 
 - [C Programming A Modern Approach - Second Edition by K. N King](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by)
 
