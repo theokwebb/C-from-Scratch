@@ -30,7 +30,7 @@ There may be some instances where you need to review or deepen your understandin
 - [Linked Lists](http://cslibrary.stanford.edu/105/LinkedListProblems.pdf)
 
 #### Code Examples and Explanations
-Here are some code snippets and explanations for some intermediate C concepts I’ve written that might be useful to you:
+Here are some code snippets and explanations I’ve written for some intermediate C concepts that might be useful to you:
 - [Pass by Value and Pass by Reference]( https://github.com/theokwebb/C-from-Scratch/tree/main/Pointers/PassByValue-Ref)
 - [Pointers to Pointers and How Data is Stored]( https://github.com/theokwebb/C-from-Scratch/tree/main/Pointers/Pointers-to-Pointers)
 - [Function Pointers]( https://github.com/theokwebb/C-from-Scratch/tree/main/Pointers/FunctionPointers)
