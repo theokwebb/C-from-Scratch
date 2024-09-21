@@ -40,34 +40,54 @@ Here are some code snippets and explanations I’ve written for some intermediat
 
 CS107 reader includes a primer on C along with lots of other useful information related to the language and computer science.
 
+- [C Programming by Steve Summit](https://www.eskimo.com/~scs/cclass/cclass.html)
+
+I stumbled upon this gem shortly after I first made this post in May, 2024 and use it often to revisit various C concepts. Steve's explanations are incredibly well-written, and the course exercises are very helpful to drive home the fundamentals. There’s also a load of quality information related to computer science on the site.
+
 - [C Programming A Modern Approach - Second Edition by K. N King](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by)
 
-I don’t believe there is one particularly special textbook for learning C. However, I often found the explanations in this book to be very clear and helpful. If you encounter a concept not covered in the other resources, such as unions or enumerations, this book is an excellent reference.
+If you encounter a concept that's not covered in the other resources, such as unions or enumerations, this book is an excellent reference.
 
 ### Individual Project
 By this point, you should be prepared to start your own project. Personally, I found it hard to choose one, as I was constantly searching for the perfect 'beginner-friendly' project which aligned with my interests. However, I realised that this approach isn’t beneficial at all. A calculator, hash table, or tic-tac-toe project will just bore you. Pursue a project that genuinely interests you, regardless of its difficulty. You will likely face some setbacks, but the valuable lessons you learn through these experiences are what truly matter.
 
 If you’re interested in malware development, head over to [Vx Underground](https://vx-underground.org/) and read some of their [white papers](https://github.com/vxunderground/VXUG-Papers) and malware [source code](https://github.com/vxunderground/MalwareSourceCode). 
 
-I decided to develop a kernel driver and a rootkit. If you intend to delve deeper into x86-64 OS Internals, I would highly recommend this route as Windows kernel development and x86-64 OS Internals are closely interconnected. However, you should first learn x86-64 Assembly.
+I decided to develop a kernel driver and a rootkit. If you intend to delve deeper into x86-64 OS Internals, I would highly recommend this route as Windows kernel development and x86-64 OS Internals are closely interconnected. However, you will first need to learn x86-64 Assembly.
 
 # x86-64 Assembly
 
 ### [Architecture 1001: x86-64 Assembly](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about)
 
-OpenSecurityTraining2’s courses are absolutely incredible and include tons of practical labs that help cement concepts. You will not be bored with Xeno.
+Arch1001 is absolutely incredible and includes tons of practical labs that help cement concepts. You will not be bored with Xeno.
 
-I found the first and second chapters of [Computer Systems: A Programmer's Perspective](https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396) complements Arch1001 nicely. Chapter 1 provides a excellent overview of computer organisation, and Chapter 2 helps to thoroughly understand bits, logic, and C data types. However, if money is an issue, use CS107’s Computer Organization and Systems reader (mentioned earlier) as it covers similar topics and is free.
+In Arch1001, there are some optional refreshers for fundamental topics like bits, logic, C data types, and two's complement. However, I found that I needed more detailed information. Chapter 2 of [Computer Systems: A Programmer's Perspective](https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396) and the [CS107 Computer Organization and Systems](https://stanford.edu/~cgregg/cgi-bin/107-reader/) proved to be the most helpful. If money is an issue, just use the CS107 reader as it is free.
 
 I have posted a number of writeups to Arch1001 on my [GitHub](https://github.com/theokwebb/my-writeups) which you may find helpful.
 
+If you enjoyed the binary bomb lab in Arch1001, check out [Crackmes.One](https://crackmes.one/).
+
 # x86-64 OS Internals
+
+If you're new to Operating Systems Internals, start with [Putting the "You" in CPU.](https://cpu.land/) It provides a nice overview of the topic before getting into the more in-depth resources below.
 
 ### [Architecture 2001: x86-64 OS Internals](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch2001_x86-64_OS_Internals+2021_v1/about)
 
-Arch2001 is OS-agnostic. However, for those particularly interested in Windows development, I strongly recommend reading at least the first four chapters of [Windows Kernel Programming, Second Edition](https://leanpub.com/windowskernelprogrammingsecondedition) before starting Arch2001. This will lay a solid foundation for the course. I also advise thoroughly reading Chapter 1 of  [Windows Internals, Part 1](https://www.microsoftpressstore.com/store/windows-internals-part-1-system-architecture-processes-9780735684188), and using the other chapters more as a reference if you find yourself stuck.
+Arch2001 is OS-agnostic, but there are some excellent OS-related resources that complement it, so I recommend to pick a path that you think will be most relevant to you and read the related Windows or Linux material below.
 
-I have also published a blog post on [Interrupt Handling and Stack Switching in x86-64 Architecture](https://theokwebb.github.io/posts/interrupt-handling-and-stack-switching/), inspired by some difficulties I faced in a lab from Arch2001.
+### Windows:
+
+For those interested in Windows, read at least the first four chapters of [Windows Kernel Programming, Second Edition](https://leanpub.com/windowskernelprogrammingsecondedition) before starting Arch2001. This will lay a solid foundation for the course. If you prefer video instruction, there’s the paid [Windows Kernel Programming 1](https://training.trainsec.net/windows-kernel-programming-1) course. I also recommend to read Chapter 1 of [Windows Internals, Part 1](https://www.microsoftpressstore.com/store/windows-internals-part-1-system-architecture-processes-9780735684188) and use the other chapters as a reference if you encounter any difficulties. 
+
+### Linux:
+
+For Linux, start with Chapter 1 of [Computer Systems: A Programmer's Perspective](https://www.pearson.com/en-us/subject-catalog/p/computer-systems-a-programmers-perspective/P200000003479/9780138105396) (CS:APP). Then, if you’re ever stuck on a topic in Arch2001, refer to the chapter on that topic in CS:APP. For me, Chapter 9 was key to properly understanding virtual memory.
+
+If you’re not very comfortable with the Linux command line, visit [pwn.college](https://pwn.college/linux-luminarium/).
+
+**Note**: No matter which path you take, CS:APP is an incredibly helpful resource.
+
+I have published a blog post on [Interrupt Handling and Stack Switching in x86-64 Architecture](https://theokwebb.github.io/posts/interrupt-handling-and-stack-switching/), inspired by some difficulties I faced in a lab from Arch2001.
 
 #
 
